@@ -14,7 +14,7 @@ import CustomCheckbox from '../../../components/forms/theme-elements/CustomCheck
 import CustomTextField from '../../../components/forms/theme-elements/CustomTextField';
 import CustomFormLabel from '../../../components/forms/theme-elements/CustomFormLabel';
 
-import AuthSocialButtons from './AuthSocialButtons';
+import FaceRecognition from './FaceRecognition';
 
 const AuthLogin = ({ title, subtitle, subtext }) => (
   <>
@@ -26,7 +26,7 @@ const AuthLogin = ({ title, subtitle, subtext }) => (
 
     {subtext}
 
-    <AuthSocialButtons title="Sign in with" />
+    <FaceRecognition title="Sign in with" />
     <Box mt={3}>
       <Divider>
         <Typography

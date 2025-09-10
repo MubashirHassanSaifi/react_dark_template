@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom';
 import CustomTextField from '../../../components/forms/theme-elements/CustomTextField';
 import CustomFormLabel from '../../../components/forms/theme-elements/CustomFormLabel';
 import { Stack } from '@mui/system';
-import AuthSocialButtons from './AuthSocialButtons';
+import AuthSocialButtons from './FaceRecognition';
 
 const AuthRegister = ({ title, subtitle, subtext }) => (
   <>
